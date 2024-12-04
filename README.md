@@ -11,7 +11,7 @@
 
 ### Latihan
 
-Customer
+#### Customer
 
 public class Customer {
 private String name;
@@ -36,7 +36,7 @@ private String address;
 
 }
 
-Item
+#### Item
 
 public class Item {
 private float shippingWeight;
@@ -76,7 +76,7 @@ private String description;
 
 }
 
-OrderDetail
+#### OrderDetail
 
 public class OrderDetail {
 private int quantity;
@@ -116,7 +116,7 @@ private String taxStatus;
 
 }
 
-Order
+#### Order
 
 import java.util.Date;
 import java.util.List;
@@ -173,7 +173,7 @@ private List<OrderDetail> lineItems;
 
 }
 
-Credit
+#### Credit
 
 public class Credit extends Payment {
 private String number;
@@ -212,7 +212,7 @@ private String expDate;
 
 }
 
-Payment
+#### Payment
 
 public abstract class Payment {
 protected float amount;
@@ -228,7 +228,7 @@ protected float amount;
 
 }
 
-Cash
+#### Cash
 
 public class Cash extends Payment {
 private float cashTendered;
@@ -244,7 +244,7 @@ private float cashTendered;
 
 }
 
-Check
+#### Check
 
 public class Check extends Payment {
 private String name;
@@ -274,7 +274,7 @@ private String bankID;
 
 }
 
-Main
+#### Main
 
 import java.util.Date;
 
